@@ -24,9 +24,8 @@
 #**********************************************************************
 [outbound_block_list]
 # 禁止访问列表
-
 #Fake Location升级检查
-http://fakelocation.api.lerist.cc:8000/FakeLocation/version/checkApkUpdate
+(^|\.)fakelocation.api.lerist.cc:8000/FakeLocation/version/checkApkUpdate$
 
 # 广告关键词
 (^|\.)\w*admarvel\w*\.\w*$
